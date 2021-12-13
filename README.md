@@ -15,7 +15,8 @@
 
 ## Back End:
 Navigate to 'backend @ 31e5410' folder to visit the backend github repo.
-###Database Setup: 
+
+### Database Setup: 
 
 (If needed install [Postgres](https://www.postgresql.org/))
 
