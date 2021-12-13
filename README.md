@@ -18,7 +18,7 @@
 
 
 Final Product
-
+!["Screenshot of Home Page"](/docs/1.png)
 ![Alt text](https://github.com/rexiah23/task-manager/master/docs/1.png)
 ![Alt text](https://github.com/rexiah23/task-manager/blob/master/docs/2.png)
 ![Alt text](https://github.com/rexiah23/task-manager/blob/master/docs/3.png)
