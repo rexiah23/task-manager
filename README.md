@@ -1,7 +1,9 @@
-#DEPLOYED PROJECT LINK: https://taskmanager-lewislee.netlify.app/
+# Deployed Project Link: https://taskmanager-lewislee.netlify.app/
 
 # Task Manager 
 > A task manager tool that allows users to organize their tasks. In one glance, users can view what tasks need to be done, what tasks need to be worked on, and where something is in a process. 
+
+> Project by [Lewis Lee](https://github.com/rexiah23)
 
 ## Features
 * Users can add their own custom task lists and indivdual tasks. 
@@ -14,6 +16,9 @@
 ## Back End:
 Navigate to 'backend @ 31e5410' folder to visit the backend github repo.
 ###Database Setup: 
+
+(If needed install [Postgres](https://www.postgresql.org/))
+
 In the terminal, run these commands: 
 1. `psql`
 2. `CREATE ROLE trello LOGIN SUPERUSER PASSWORD 'trello';`
@@ -32,7 +37,7 @@ Navigate to 'frontend @ 892c13e' folder to visit the frontend github repo.
 
 ### Setup
 In the terminal, run these commands:
-1. Delete the .env file if you want to connect to the local server. 
+1. Delete the .env file if you want to connect to the local server (by default is connected to heroku hosted server). 
 2. Install dependencies with `npm install`.
 
 To start the frontend: 
