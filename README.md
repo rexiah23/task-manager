@@ -5,16 +5,39 @@
 
 ## Features
 * Users can add their own custom task lists and indivdual tasks. 
-* Users can selected custom backgrounds. 
 * Users can easily drag and drop tasks and lists to change their order. 
 * Users can delete task lists or individual tasks when they are no longer needed. 
+* Users can edit task list titles. 
+* Users can selected custom backgrounds. 
 
-## Front-End
+
+## Back End:
+Navigate to 'backend @ 31e5410' folder to visit the backend github repo.
+###Database Setup: 
+In the terminal, run these commands: 
+1. `psql`
+2. `CREATE ROLE trello LOGIN SUPERUSER PASSWORD 'trello';`
+3. `\q`
+4. `CREATE DATABASE trello;`
+5. `\q`
+
+To start the backend:
+1. Open terminal at the root backend repo (backend @ 31e5410).
+2. Install dependencies with `npm install`.
+3. Run this command to reset the database: `npm run db:reset`
+4. Run this command to start the server: `npm start`
+ 
+## Front End:
+Navigate to 'frontend @ 892c13e' folder to visit the frontend github repo.
 
 ### Setup
-1. Navigate to the 'frontend' folder. 
+In the terminal, run these commands:
+1. Delete the .env file if you want to connect to the local server. 
 2. Install dependencies with `npm install`.
-3. 
+
+To start the frontend: 
+1. Run this command to start the server: `npm start`
+
 
 
 Final Product
@@ -23,3 +46,12 @@ Final Product
 ![Alt text](/docs/3.png)
 ![Alt text](/docs/4.png)
 ![Alt text](/docs/5.png)
+
+Powered by: 
+
+- [ReactJS](https://reactjs.org/)
+- [NodeJS](https://nodejs.org/)
+- [ExpressJS](http://expressjs.com/)
+- [Material UI](https://mui.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [react-beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd)
