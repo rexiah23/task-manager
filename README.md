@@ -6,11 +6,11 @@
 > Project by [Lewis Lee](https://github.com/rexiah23)
 
 ## Features
-* Users can add their own custom task lists and indivdual tasks. 
-* Users can easily drag and drop tasks and lists to change their order. 
-* Users can delete task lists or individual tasks when they are no longer needed. 
-* Users can edit task list titles. 
-* Users can selected custom backgrounds. 
+* Users can add their own custom lists and tasks. 
+* Users can easily drag and drop lists or tasks to change their order. 
+* Users can delete lists or tasks when they are no longer needed. 
+* Users can edit list titles. 
+* Users can select custom backgrounds. 
 
 
 ## Back End:
@@ -42,7 +42,6 @@ In the terminal, run these commands:
 
 To start the frontend: 
 1. Run this command to start the server: `npm start`
-
 
 
 Final Product
